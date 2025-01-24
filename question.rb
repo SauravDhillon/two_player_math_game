@@ -10,7 +10,7 @@ class Question
 
   # method to compare if player_answer is correct will return true if correct
   def correct?(player_answer)
-    player_answer.to_i == @answer
+    player_answer.to_i == @answer  # we convert to integer here because when we get user input it is string
   end
 
 end
